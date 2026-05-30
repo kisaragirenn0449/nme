@@ -50,3 +50,16 @@ a:after {
 a:hover:after {
   transform: translate(0, 0);
 }
+
+.fade {
+  opacity: 0;
+  transform: translateY(50px);
+  transition:
+    opacity 1s,
+    transform 1s;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}

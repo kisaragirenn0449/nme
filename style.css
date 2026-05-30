@@ -11,11 +11,6 @@ header {
   align-items: center;
 }
 
-p {
-  padding: 130px 0px;
-  height: 500px;
-}
-
 .title {
   margin-right: auto;
 }
@@ -37,9 +32,40 @@ h1 {
   border: dashed 2px white;
   display: inline-block;
 }
-.box14 p {
+.box14-p {
   margin: 0;
   padding: 0;
   height: auto;
   width: auto;
+}
+
+.box15 {
+  padding: 0.2em 0.5em;
+  margin: 4em 3em;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0px 0px 0px 10px #d6ebff;
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+}
+
+.rounded-img {
+  border-radius: 10px;
+}
+
+footer {
+  height: 60px;
+  background-color: #eaeaea;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
 }
