@@ -35,19 +35,24 @@ a {
   text-decoration: none;
 }
 
-a:after {
+.menu-underline a {
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-underline a::after {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #00ff15;
+  background-color: #ffffff;
   transform: translate(-100%, 0);
   transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s;
   content: "";
 }
 
-a:hover:after {
+.menu-underline a:hover::after {
   transform: translate(0, 0);
 }
 

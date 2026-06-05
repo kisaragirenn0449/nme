@@ -50,6 +50,8 @@ h1 {
   box-sizing: border-box;
   width: 128px;
   height: 128px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .rounded-img {
@@ -68,4 +70,9 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
